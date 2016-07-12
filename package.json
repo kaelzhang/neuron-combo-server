@@ -1,0 +1,28 @@
+{
+  "name": "neuron-combo-server",
+  "version": "1.0.0",
+  "description": "neuron-combo-server",
+  "main": "./lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/neuron-combo-server.git"
+  },
+  "keywords": [
+    "neuron-combo-server"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/neuron-combo-server/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.13.0"
+  }
+}
